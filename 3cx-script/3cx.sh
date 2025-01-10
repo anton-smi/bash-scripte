@@ -27,7 +27,7 @@ wget -O /mnt/3cx/install/vmlinuz \
 
 mkdir -p /mnt/3cx/boot/grub || { echo "Failed to make directory /mnt/3cx/boot/grub"; exit 1;}
 
-nano /mnt/3cx/boot/grub/grub.cfg 
+
 
 echo "
 menuentry "Install 3CX from ISO" {
